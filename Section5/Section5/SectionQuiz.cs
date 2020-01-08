@@ -15,7 +15,7 @@ namespace Section5
             //The temp in F {given temp} is {temp} in C
             //replacing the values as necessary in the string
 
-            double tempInF = 57;
+            double tempInF = 60;
             //To convert temperatures in degrees Fahrenheit to Celsius, subtract 32 and multiply by .5556 (or 5/9)
             double tempInC = (tempInF - 32) * .5556;
             Console.WriteLine($"The temp in F {tempInF} is {tempInC} in C");
